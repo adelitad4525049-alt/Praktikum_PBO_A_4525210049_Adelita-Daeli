@@ -16,7 +16,7 @@ Sistem akademik mencatat data mahasiswa dengan ketentuan sebagai berikut:
  * Mahasiswa.php — Implementasi kelas dalam bahasa PHP 8+.
 
 **Output**
-![Deskripsi Gambar](../images/After/mahasiswaj1.jpeg)
+![Deskripsi Gambar](../image/After/mahasiswaj1.jpeg)
 ![Deskripsi Gambar](../images/After/mahasiswaj2.jpeg)
 ![Deskripsi Gambar](../images/After/mahasiswap1.jpeg)
 ![Deskripsi Gambar](../images/After/mahasiswap2.jpeg)

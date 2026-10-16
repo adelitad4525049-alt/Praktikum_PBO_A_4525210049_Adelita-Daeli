@@ -17,6 +17,12 @@ Sistem akademik mencatat data mahasiswa dengan ketentuan sebagai berikut:
 
 **Output**
 ![Deskripsi Gambar](../images/After/mahasiswaj1.jpeg)
+![Deskripsi Gambar](../images/After/mahasiswaj2.jpeg)
+![Deskripsi Gambar](../images/After/mahasiswap1.jpeg)
+![Deskripsi Gambar](../images/After/mahasiswap2.jpeg)
+![Deskripsi Gambar](../images/After/mahasiswap3.jpeg)
+![Deskripsi Gambar](../images/After/mainj1.jpeg)
+![Deskripsi Gambar](../images/After/mainp1.jpeg)
 
  
  🚀 Cara Menjalankan1. 

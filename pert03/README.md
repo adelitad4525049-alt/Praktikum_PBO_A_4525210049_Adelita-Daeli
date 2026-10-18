@@ -1,15 +1,14 @@
-Proyek RekeningBank (Java OOP)
+**Proyek RekeningBank (Java OOP)**
 Proyek ini adalah implementasi sederhana dari sistem pengelolaan rekening bank menggunakan bahasa pemrograman Java. Proyek ini dirancang untuk mempelajari konsep Pemrograman Berorientasi Objek (PPOB / OOP) tingkat lanjut di Java, khususnya mengenai constructor chaining (delegasi constructor), anggota statis (static), konstanta (final), serta penanganan eksepsi (exception handling).
 
-
-📂 Struktur Kelas
+**📂 Struktur Kelas**
 Proyek ini terdiri dari dua kelas utama:
 
 Main.java: Kelas utama (driver) yang menjalankan pengujian (skenario tes) untuk memastikan semua fungsi pada kelas RekeningBank berjalan dengan benar sesuai invariant yang ditentukan.
 
 RekeningBank.java: Kelas cetak biru (blueprint) yang merepresentasikan entitas rekening bank beserta logika bisnisnya (validasi saldo, setor, tarik, administrasi, dan perhitungan bunga).
 
-⚙️ Fitur dan Implementasi Utama (RekeningBank.java)
+**⚙️ Fitur dan Implementasi Utama (RekeningBank.java)**
 Konstanta Global (public static final):
 
 bungatahunan = 0.025 (Suku bunga 2.5%)
@@ -36,7 +35,7 @@ jumlahRekening: Variabel privat untuk melacak total objek rekening yang berhasil
 
 getJumlahRekening() & bungaSetahun(double pokok): Method utilitas statis yang dapat dipanggil tanpa harus membuat instansiasi objek terlebih dahulu.
 
-🚀 Cara Menjalankan Program
+**🚀 Cara Menjalankan Program**
 Pastikan Anda sudah menginstal Java Development Kit (JDK) di komputer Anda.
 
 Simpan kedua berkas kode (Main.java dan RekeningBank.java) ke dalam satu direktori/folder yang sama.

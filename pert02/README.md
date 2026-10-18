@@ -34,7 +34,6 @@ Sistem akademik mencatat data mahasiswa dengan ketentuan sebagai berikut:
    * ≥ 60 → "C"
    * ≥ 50 → "D"
    * Lainnya → "E"
->>>>>>> 7de2203dac95fec7d231dceff087dc4bbd7853f5
 
 **Output**
 

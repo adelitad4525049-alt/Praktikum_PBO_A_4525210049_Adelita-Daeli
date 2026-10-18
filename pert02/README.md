@@ -12,12 +12,12 @@ Sistem akademik mencatat data mahasiswa dengan ketentuan sebagai berikut:
   * Tugas: 30% (BOBOT_TUGAS = 0.30)
   * UTS: 30% (BOBOT_UTS = 0.30)
   * UAS: 40% (BOBOT_UAS = 0.40)
-6. Konversi Huruf Mutu:$\ge 80 \rightarrow$ "A"$\ge 70 \rightarrow$ "B"$\ge 60 \rightarrow$ "C"$\ge 50 \rightarrow$ "D"Lainnya $\rightarrow$ "E"
-📂 Struktur Berkas
- * analisis.md — Daftar spesifikasi invariant dan aturan validasi objek.
- * Mahasiswa.java — Implementasi kelas dalam bahasa Java.
- * Mahasiswa.php — Implementasi kelas dalam bahasa PHP 8+.
-
+6. Konversi Huruf Mutu:
+   * ≥ 80 → "A"
+   * ≥ 70 → "B"
+   * ≥ 60 → "C"
+   * ≥ 50 → "D"
+   * Lainnya → "E"
 **Output**
 ![Deskripsi Gambar](../image/After/mahasiswaj1.jpeg)
 ![Deskripsi Gambar](../images/After/mahasiswaj2.jpeg)

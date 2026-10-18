@@ -5,12 +5,9 @@ Proyek ini adalah implementasi sederhana dari sistem pengelolaan rekening bank m
 
 **📂 Struktur Kelas**
 
-
 Proyek ini terdiri dari dua kelas utama:
-
-Main.java: Kelas utama (driver) yang menjalankan pengujian (skenario tes) untuk memastikan semua fungsi pada kelas RekeningBank berjalan dengan benar sesuai invariant yang ditentukan.
-
-RekeningBank.java: Kelas cetak biru (blueprint) yang merepresentasikan entitas rekening bank beserta logika bisnisnya (validasi saldo, setor, tarik, administrasi, dan perhitungan bunga).
+ * Main.java: Kelas utama (driver) yang menjalankan pengujian (skenario tes) untuk memastikan semua fungsi pada kelas RekeningBank berjalan dengan benar sesuai invariant yang ditentukan.
+ * RekeningBank.java: Kelas cetak biru (blueprint) yang merepresentasikan entitas rekening bank beserta logika bisnisnya (validasi saldo, setor, tarik, administrasi, dan perhitungan bunga).
 
 **⚙️ Fitur dan Implementasi Utama (RekeningBank.java)**
 
@@ -20,49 +17,34 @@ Konstanta Global (public static final):
   * bataspenarikan_sekali = 5000000 (Batas maksimal penarikan dalam sekali transaksi)
 
 Constructor & Delegasi (this(...)):
-
-Menggunakan constructor chaining agar logika validasi terpusat pada satu constructor utama guna menghindari duplikasi kode.
+ * Menggunakan constructor chaining agar logika validasi terpusat pada satu constructor utama guna menghindari duplikasi kode.
 
 **Encapsulation & Invariant:**
+ * Menjaga agar saldo tidak pernah bernilai negatif.
+ * Nomor rekening bersifat tetap (final) setelah objek berhasil dibuat.
+ * Validasi ketat pada input setoran, penarikan, serta parameter pembuatan rekening.
 
-Menjaga agar saldo tidak pernah bernilai negatif.
-
-Nomor rekening bersifat tetap (final) setelah objek berhasil dibuat.
-
-Validasi ketat pada input setoran, penarikan, serta parameter pembuatan rekening.
-
-Anggota Statis (static):
-
-jumlahRekening: Variabel privat untuk melacak total objek rekening yang berhasil diinisialisasi.
-
-getJumlahRekening() & bungaSetahun(double pokok): Method utilitas statis yang dapat dipanggil tanpa harus membuat instansiasi objek terlebih dahulu.
+**Anggota Statis (static):**
+ * jumlahRekening: Variabel privat untuk melacak total objek rekening yang berhasil diinisialisasi.
+ * getJumlahRekening() & bungaSetahun(double pokok): Method utilitas statis yang dapat dipanggil tanpa harus membuat instansiasi objek terlebih dahulu.
 
 **🚀 Cara Menjalankan Program**
-Pastikan Anda sudah menginstal Java Development Kit (JDK) di komputer Anda.
+1. Pastikan Anda sudah menginstal Java Development Kit (JDK) di komputer Anda.
+2. Simpan kedua berkas kode (Main.java dan RekeningBank.java) ke dalam satu direktori/folder yang sama.
+3. Buka terminal atau command prompt pada folder tersebut.
 
-Simpan kedua berkas kode (Main.java dan RekeningBank.java) ke dalam satu direktori/folder yang sama.
-
-Buka terminal atau command prompt pada folder tersebut.
-
-Kompilasi program dengan perintah:
-
+**Kompilasi program dengan perintah:**
 Bash
 javac Main.java RekeningBank.java
 Jalankan program dengan perintah:
-
 Bash
 java Main
-🧪 Skenario Pengujian (Main)
-Program pengujian di kelas Main mencakup:
 
-Pengecekan penghitungan jumlah rekening secara akurat menggunakan method statis.
-
-Pembuatan objek rekening dengan berbagai varian constructor.
-
-Pengujian operasi penyetoran dana (setor).
-
-Pengujian penarikan dana dengan simulasi penolakan jika melebihi saldo atau melewati batas penarikan maksimal (tarik).
-
-Pengujian pemotongan biaya administrasi tanpa membuat saldo menjadi negatif (potongBiayaAdmin).
-
-Perhitungan estimasi bunga tabungan dalam setahun menggunakan method utilitas statis.
+**🧪 Skenario Pengujian (Main)**
+1. Program pengujian di kelas Main mencakup:
+2. Pengecekan penghitungan jumlah rekening secara akurat menggunakan method statis.
+3. Pembuatan objek rekening dengan berbagai varian constructor.
+4. Pengujian operasi penyetoran dana (setor).
+5. Pengujian penarikan dana dengan simulasi penolakan jika melebihi saldo atau melewati batas penarikan maksimal (tarik).
+6. Pengujian pemotongan biaya administrasi tanpa membuat saldo menjadi negatif (potongBiayaAdmin).
+7. Perhitungan estimasi bunga tabungan dalam setahun menggunakan method utilitas statis.

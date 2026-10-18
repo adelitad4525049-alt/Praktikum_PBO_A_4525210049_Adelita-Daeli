@@ -36,9 +36,13 @@ Constructor & Delegasi (this(...)):
 
 ### Output
 
+**Main.Java**
 ![Gambar 1](Images/After/mj1.jpeg)
+
 ![Gambar 2](Images/After/mj2.jpeg)
+
 ![Gambar 3](Images/After/rekj1.jpeg)
+
 
 
 **Kompilasi program dengan perintah:**

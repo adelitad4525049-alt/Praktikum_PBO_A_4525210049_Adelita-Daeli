@@ -9,9 +9,9 @@ Sistem akademik mencatat data mahasiswa dengan ketentuan sebagai berikut:
 2. Immutable NIM: NIM tidak boleh berubah setelah mahasiswa terdaftar (menggunakan final di Java dan readonly di PHP).
 3. Validasi Invariant Nilai: Setiap komponen nilai wajib berada di dalam rentang inklusif 0 sampai 100.
 4.  Perhitungan Nilai Akhir: Dihitung menggunakan bobot tetap:Tugas:
-  * Tugas: 30% ($\text{BOBOT\_TUGAS} = 0.30$)[cite: 1]
-  * UTS: 30% ($\text{BOBOT\_UTS} = 0.30$)[cite: 1]
-  * UAS: 40% ($\text{BOBOT\_UAS} = 0.40$)[cite: 1]
+  * Tugas: 30% (BOBOT_TUGAS = 0.30)
+  * UTS: 30% (BOBOT_UTS = 0.30)
+  * UAS: 40% (BOBOT_UAS = 0.40)
 6. Konversi Huruf Mutu:$\ge 80 \rightarrow$ "A"$\ge 70 \rightarrow$ "B"$\ge 60 \rightarrow$ "C"$\ge 50 \rightarrow$ "D"Lainnya $\rightarrow$ "E"
 📂 Struktur Berkas
  * analisis.md — Daftar spesifikasi invariant dan aturan validasi objek.

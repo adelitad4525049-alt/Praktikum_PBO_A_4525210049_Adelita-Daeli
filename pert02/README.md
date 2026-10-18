@@ -29,7 +29,7 @@ Sistem akademik mencatat data mahasiswa dengan ketentuan sebagai berikut:
 
 **Mahasiswa.PHP**
 
-![Deskripsi Gambar](Images/After/mahsiswap1.jpeg)
+![Deskripsi Gambar](Images/After/mahasiswap1.jpeg)
 
 ![Deskripsi Gambar](Images/After/mahsiswap2.jpeg)
 

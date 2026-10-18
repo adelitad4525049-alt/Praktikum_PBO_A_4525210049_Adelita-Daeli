@@ -36,9 +36,9 @@ Constructor & Delegasi (this(...)):
 
 ### Output
 
-![Gambar 1](pert03/Images/After/mj1.jpeg)
-![Gambar 2](pert03/Images/After/mj2.jpeg)
-![Gambar 3](pert03/Images/After/rekj1.jpeg)
+![Gambar 1](Images/After/mj1.jpeg)
+![Gambar 2](Images/After/mj2.jpeg)
+![Gambar 3](Images/After/rekj1.jpeg)
 
 
 **Kompilasi program dengan perintah:**

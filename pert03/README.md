@@ -4,6 +4,8 @@
 Proyek ini adalah implementasi sederhana dari sistem pengelolaan rekening bank menggunakan bahasa pemrograman Java. Proyek ini dirancang untuk mempelajari konsep Pemrograman Berorientasi Objek (PPOB / OOP) tingkat lanjut di Java, khususnya mengenai constructor chaining (delegasi constructor), anggota statis (static), konstanta (final), serta penanganan eksepsi (exception handling).
 
 **📂 Struktur Kelas**
+
+
 Proyek ini terdiri dari dua kelas utama:
 
 Main.java: Kelas utama (driver) yang menjalankan pengujian (skenario tes) untuk memastikan semua fungsi pada kelas RekeningBank berjalan dengan benar sesuai invariant yang ditentukan.
@@ -11,19 +13,17 @@ Main.java: Kelas utama (driver) yang menjalankan pengujian (skenario tes) untuk 
 RekeningBank.java: Kelas cetak biru (blueprint) yang merepresentasikan entitas rekening bank beserta logika bisnisnya (validasi saldo, setor, tarik, administrasi, dan perhitungan bunga).
 
 **⚙️ Fitur dan Implementasi Utama (RekeningBank.java)**
+
 Konstanta Global (public static final):
-
-bungatahunan = 0.025 (Suku bunga 2.5%)
-
-biayaadministrasi = 5000 (Potongan biaya admin)
-
-bataspenarikan_sekali = 5000000 (Batas maksimal penarikan dalam sekali transaksi)
+  * bungatahunan = 0.025 (Suku bunga 2.5%)
+  * biayaadministrasi = 5000 (Potongan biaya admin)
+  * bataspenarikan_sekali = 5000000 (Batas maksimal penarikan dalam sekali transaksi)
 
 Constructor & Delegasi (this(...)):
 
 Menggunakan constructor chaining agar logika validasi terpusat pada satu constructor utama guna menghindari duplikasi kode.
 
-Encapsulation & Invariant:
+**Encapsulation & Invariant:**
 
 Menjaga agar saldo tidak pernah bernilai negatif.
 

@@ -17,7 +17,7 @@ Sistem akademik mencatat data mahasiswa dengan ketentuan sebagai berikut:
    * $\ge 70 \rightarrow$ "B"
    * $\ge 60 \rightarrow$ "C"
    * $\ge 50 \rightarrow$ "D"
-   * $\rightarrow$ "E"
+   * Lainnya $\rightarrow$ "E"
      
 📂 Struktur Berkas
  * analisis.md — Daftar spesifikasi invariant dan aturan validasi objek.

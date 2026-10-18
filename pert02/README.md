@@ -23,7 +23,7 @@ Sistem akademik mencatat data mahasiswa dengan ketentuan sebagai berikut:
  * analisis.md — Daftar spesifikasi invariant dan aturan validasi objek.
  * Mahasiswa.java — Implementasi kelas dalam bahasa Java.
  * Mahasiswa.php — Implementasi kelas dalam bahasa PHP 8+.
-=======
+   
 4.  Perhitungan Nilai Akhir: Dihitung menggunakan bobot tetap:Tugas:
   * Tugas: 30% (BOBOT_TUGAS = 0.30)
   * UTS: 30% (BOBOT_UTS = 0.30)

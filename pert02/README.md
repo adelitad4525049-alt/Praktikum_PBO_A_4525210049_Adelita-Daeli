@@ -20,13 +20,14 @@ Sistem akademik mencatat data mahasiswa dengan ketentuan sebagai berikut:
    * Lainnya → "E"
 
 **Output**
-![Deskripsi Gambar](../Image/After/mahasiswaj1.jpeg)
-![Deskripsi Gambar](../Images/After/mahasiswaj2.jpeg)
-![Deskripsi Gambar](../Images/After/mahasiswap1.jpeg)
-![Deskripsi Gambar](../Images/After/mahasiswap2.jpeg)
-![Deskripsi Gambar](../Images/After/mahasiswap3.jpeg)
-![Deskripsi Gambar](../images/After/mainj1.jpeg)
-![Deskripsi Gambar](../images/After/mainp1.jpeg)
+**Output**
+![Deskripsi Gambar](Images/After/mahasiswaj1.jpeg)
+![Deskripsi Gambar](Images/After/mahasiswaj2.jpeg)
+![Deskripsi Gambar](Images/After/mahsiswap1.jpeg)
+![Deskripsi Gambar](Images/After/mahsiswap2.jpeg)
+![Deskripsi Gambar](Images/After/mahsiswap3.jpeg)
+![Deskripsi Gambar](Images/After/mainj1.jpeg)
+![Deskripsi Gambar](Images/After/mainp1.jpeg)
 
  
  🚀 Cara Menjalankan1. 

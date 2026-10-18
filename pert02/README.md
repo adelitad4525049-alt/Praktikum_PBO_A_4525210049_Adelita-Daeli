@@ -14,7 +14,12 @@ Sistem akademik mencatat data mahasiswa dengan ketentuan sebagai berikut:
     $30\%$ ($\text{BOBOT\_TUGAS} = 0.30$)
     UTS: $30\%$ ($\text{BOBOT\_UTS} = 0.30$)
     UAS: $40\%$ ($\text{BOBOT\_UAS} = 0.40$)
-5. Konversi Huruf Mutu:$\ge 80 \rightarrow$ "A"$\ge 70 \rightarrow$ "B"$\ge 60 \rightarrow$ "C"$\ge 50 \rightarrow$ "D"Lainnya $\rightarrow$ "E"
+5. Konversi Huruf Mutu:
+   * $\ge 80 \rightarrow$ "A"
+   * $\ge 70 \rightarrow$ "B"
+   * $\ge 60 \rightarrow$ "C"
+   * $\ge 50 \rightarrow$ "D"Lainnya
+   * $\rightarrow$ "E"
 📂 Struktur Berkas
  * analisis.md — Daftar spesifikasi invariant dan aturan validasi objek.
  * Mahasiswa.java — Implementasi kelas dalam bahasa Java.

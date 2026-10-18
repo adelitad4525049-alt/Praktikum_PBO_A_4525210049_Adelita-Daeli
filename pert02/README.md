@@ -18,12 +18,13 @@ Sistem akademik mencatat data mahasiswa dengan ketentuan sebagai berikut:
    * ≥ 60 → "C"
    * ≥ 50 → "D"
    * Lainnya → "E"
+
 **Output**
-![Deskripsi Gambar](../image/After/mahasiswaj1.jpeg)
-![Deskripsi Gambar](../images/After/mahasiswaj2.jpeg)
-![Deskripsi Gambar](../images/After/mahasiswap1.jpeg)
-![Deskripsi Gambar](../images/After/mahasiswap2.jpeg)
-![Deskripsi Gambar](../images/After/mahasiswap3.jpeg)
+![Deskripsi Gambar](../Image/After/mahasiswaj1.jpeg)
+![Deskripsi Gambar](../Images/After/mahasiswaj2.jpeg)
+![Deskripsi Gambar](../Images/After/mahasiswap1.jpeg)
+![Deskripsi Gambar](../Images/After/mahasiswap2.jpeg)
+![Deskripsi Gambar](../Images/After/mahasiswap3.jpeg)
 ![Deskripsi Gambar](../images/After/mainj1.jpeg)
 ![Deskripsi Gambar](../images/After/mainp1.jpeg)
 

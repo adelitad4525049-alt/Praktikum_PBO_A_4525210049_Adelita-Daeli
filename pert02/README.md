@@ -47,9 +47,9 @@ Sistem akademik mencatat data mahasiswa dengan ketentuan sebagai berikut:
  🚀 Cara Menjalankan1. 
  1. Java (Mahasiswa.java)Pastikan Anda sudah menginstal Java Development Kit (JDK 8 atau yang lebih baru).
  # Kompilasi
-javac Mahasiswa.java
-# Jalankan (jika ditambahkan method main pengujian)
-java Mahasiswa
+ javac Mahasiswa.java
+ # Jalankan (jika ditambahkan method main pengujian)
+ java Mahasiswa
 
  2. PHP (Mahasiswa.php)Pastikan PHP versi 8.0 atau yang lebih baru terinstal (mendukung fitur Constructor Property Promotion dan readonly).
  # Jalankan skrip dengan PHP CLI

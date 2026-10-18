@@ -8,6 +8,7 @@ Sistem akademik mencatat data mahasiswa dengan ketentuan sebagai berikut:
 1. Atribut Utama: NIM, Nama, dan tiga komponen nilai (Tugas, UTS, dan UAS).
 2. Immutable NIM: NIM tidak boleh berubah setelah mahasiswa terdaftar (menggunakan final di Java dan readonly di PHP).
 3. Validasi Invariant Nilai: Setiap komponen nilai wajib berada di dalam rentang inklusif 0 sampai 100.
+<<<<<<< HEAD
 4.  Perhitungan Nilai Akhir: Dihitung menggunakan bobot tetap:
     Tugas: 
     $30\%$ ($\text{BOBOT\_TUGAS} = 0.30$)
@@ -18,22 +19,50 @@ Sistem akademik mencatat data mahasiswa dengan ketentuan sebagai berikut:
  * analisis.md — Daftar spesifikasi invariant dan aturan validasi objek.
  * Mahasiswa.java — Implementasi kelas dalam bahasa Java.
  * Mahasiswa.php — Implementasi kelas dalam bahasa PHP 8+.
+=======
+4.  Perhitungan Nilai Akhir: Dihitung menggunakan bobot tetap:Tugas:
+  * Tugas: 30% (BOBOT_TUGAS = 0.30)
+  * UTS: 30% (BOBOT_UTS = 0.30)
+  * UAS: 40% (BOBOT_UAS = 0.40)
+6. Konversi Huruf Mutu:
+   * ≥ 80 → "A"
+   * ≥ 70 → "B"
+   * ≥ 60 → "C"
+   * ≥ 50 → "D"
+   * Lainnya → "E"
+>>>>>>> 7de2203dac95fec7d231dceff087dc4bbd7853f5
 
 **Output**
- ![Deskripsi Gambar](images/After/mahasiswaj1.jpeg)
- ![Deskripsi Gambar](images/After/mahasiswaj2.jpeg)
- ![Deskripsi Gambar](images/After/mahasiswap1.jpeg)
- ![Deskripsi Gambar](images/After/mahsiswap2.jpeg)
- ![Deskripsi Gambar](images/After/mahsiswap3.jpeg)
- ![Deskripsi Gambar](images/After/mainj1.jpeg)
- ![Deskripsi Gambar](images/After/mainp1.jpeg)
+
+**Mahasiswa.Java**
+
+![Deskripsi Gambar](Images/After/mahasiswaj1.jpeg)
+
+![Deskripsi Gambar](Images/After/mahasiswaj2.jpeg)
+
+**Mahasiswa.PHP**
+
+![Deskripsi Gambar](Images/After/mahasiswap1.jpeg)
+
+![Deskripsi Gambar](Images/After/mahsiswap2.jpeg)
+
+![Deskripsi Gambar](Images/After/mahsiswap3.jpeg)
+
+**Main.Java**
+
+![Deskripsi Gambar](Images/After/mainj1.jpeg)
+
+**Main.PHP**
+
+![Deskripsi Gambar](Images/After/mainp1.jpeg)
+
  
  🚀 Cara Menjalankan1. 
  1. Java (Mahasiswa.java)Pastikan Anda sudah menginstal Java Development Kit (JDK 8 atau yang lebih baru).
  # Kompilasi
-javac Mahasiswa.java
-# Jalankan (jika ditambahkan method main pengujian)
-java Mahasiswa
+ javac Mahasiswa.java
+ # Jalankan (jika ditambahkan method main pengujian)
+ java Mahasiswa
 
  2. PHP (Mahasiswa.php)Pastikan PHP versi 8.0 atau yang lebih baru terinstal (mendukung fitur Constructor Property Promotion dan readonly).
  # Jalankan skrip dengan PHP CLI

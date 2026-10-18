@@ -33,8 +33,13 @@ Constructor & Delegasi (this(...)):
 2. Simpan kedua berkas kode (Main.java dan RekeningBank.java) ke dalam satu direktori/folder yang sama.
 3. Buka terminal atau command prompt pada folder tersebut.
 
-**Ouput**
-![Tampilan Program](Images/After/mj1.JPEG)
+
+### Output
+
+![Gambar 1](pert03/Images/After/mj1.jpeg)
+![Gambar 2](pert03/Images/After/mj2.jpeg)
+![Gambar 3](pert03/Images/After/rekj1.jpeg)
+
 
 **Kompilasi program dengan perintah:**
 

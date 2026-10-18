@@ -34,9 +34,11 @@ Constructor & Delegasi (this(...)):
 3. Buka terminal atau command prompt pada folder tersebut.
 
 **Kompilasi program dengan perintah:**
+
 Bash
 javac Main.java RekeningBank.java
 Jalankan program dengan perintah:
+
 Bash
 java Main
 

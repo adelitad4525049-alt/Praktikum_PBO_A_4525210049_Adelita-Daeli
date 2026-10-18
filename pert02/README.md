@@ -16,8 +16,9 @@ Sistem akademik mencatat data mahasiswa dengan ketentuan sebagai berikut:
    * $\ge 80 \rightarrow$ "A"
    * $\ge 70 \rightarrow$ "B"
    * $\ge 60 \rightarrow$ "C"
-   * $\ge 50 \rightarrow$ "D"Lainnya
+   * $\ge 50 \rightarrow$ "D"
    * $\rightarrow$ "E"
+     
 📂 Struktur Berkas
  * analisis.md — Daftar spesifikasi invariant dan aturan validasi objek.
  * Mahasiswa.java — Implementasi kelas dalam bahasa Java.

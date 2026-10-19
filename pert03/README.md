@@ -61,6 +61,7 @@ Constructor & Delegasi (this(...)):
 **AFTER**
 
 **1. Main.Java**
+
 ![Gambar 1](Images/After/mj1.jpeg)
 
 ![Gambar 2](Images/After/mj2.jpeg)

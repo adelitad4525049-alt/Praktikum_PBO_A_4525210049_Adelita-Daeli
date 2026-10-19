@@ -80,13 +80,14 @@ Constructor & Delegasi (this(...)):
 
 
 **Kompilasi program dengan perintah:**
-
-Bash
+```bash
 javac Main.java RekeningBank.java
-Jalankan program dengan perintah:
+```
 
-Bash
+**Jalankan program dengan perintah:**
+```bash
 java Main
+```
 
 **🧪 Skenario Pengujian (Main)**
       Program pengujian di kelas Main mencakup:

@@ -51,13 +51,13 @@ Sistem akademik mencatat data mahasiswa dengan ketentuan sebagai berikut:
 
 
 **AFTER**
-**Mahasiswa.Java**
+**1. Mahasiswa.Java**
 
 ![Deskripsi Gambar](Images/After/mahasiswaj1.jpeg)
 
 ![Deskripsi Gambar](Images/After/mahasiswaj2.jpeg)
 
-**Mahasiswa.PHP**
+**2. Mahasiswa.PHP**
 
 ![Deskripsi Gambar](Images/After/mahasiswap1.jpeg)
 
@@ -65,11 +65,11 @@ Sistem akademik mencatat data mahasiswa dengan ketentuan sebagai berikut:
 
 ![Deskripsi Gambar](Images/After/mahsiswap3.jpeg)
 
-**Main.Java**
+**3. Main.Java**
 
 ![Deskripsi Gambar](Images/After/mainj1.jpeg)
 
-**Main.PHP**
+**4. Main.PHP**
 
 ![Deskripsi Gambar](Images/After/mainp1.jpeg)
 

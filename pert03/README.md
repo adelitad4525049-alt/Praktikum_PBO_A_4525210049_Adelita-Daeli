@@ -41,6 +41,14 @@ Constructor & Delegasi (this(...)):
 ### Output
 **BEFORE**
 
+![Before 1](Images/Before/mainj.jpeg)
+
+![Before 1](Images/Before/mainp.jpeg)
+
+![Before 1](Images/Before/rbjava.jpeg)
+
+![Before 1](Images/Before/rbphp.jpeg)
+
 
 **AFTER**
 

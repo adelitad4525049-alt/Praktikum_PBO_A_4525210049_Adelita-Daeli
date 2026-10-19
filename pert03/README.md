@@ -39,6 +39,7 @@ Constructor & Delegasi (this(...)):
 
 
 **AFTER**
+
 **Main.Java**
 ![Gambar 1](Images/After/mj1.jpeg)
 

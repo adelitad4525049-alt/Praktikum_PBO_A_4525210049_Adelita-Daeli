@@ -68,10 +68,10 @@ Bash
 java Main
 
 **🧪 Skenario Pengujian (Main)**
-1. Program pengujian di kelas Main mencakup:
-2. Pengecekan penghitungan jumlah rekening secara akurat menggunakan method statis.
-3. Pembuatan objek rekening dengan berbagai varian constructor.
-4. Pengujian operasi penyetoran dana (setor).
-5. Pengujian penarikan dana dengan simulasi penolakan jika melebihi saldo atau melewati batas penarikan maksimal (tarik).
-6. Pengujian pemotongan biaya administrasi tanpa membuat saldo menjadi negatif (potongBiayaAdmin).
-7. Perhitungan estimasi bunga tabungan dalam setahun menggunakan method utilitas statis.
+      Program pengujian di kelas Main mencakup:
+1. Pengecekan penghitungan jumlah rekening secara akurat menggunakan method statis.
+2. Pembuatan objek rekening dengan berbagai varian constructor.
+3. Pengujian operasi penyetoran dana (setor).
+4. Pengujian penarikan dana dengan simulasi penolakan jika melebihi saldo atau melewati batas penarikan maksimal (tarik).
+5. Pengujian pemotongan biaya administrasi tanpa membuat saldo menjadi negatif (potongBiayaAdmin).
+6. Perhitungan estimasi bunga tabungan dalam setahun menggunakan method utilitas statis.

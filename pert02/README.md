@@ -1,7 +1,7 @@
 ### LAPORAN PRAKTIKUM PBO PERT 2
 **NAMA : ADELITA DAELI**
 
-**NPM  : 4525210049**
+**NPM      : 4525210049**
 
 **Enkapsulasi dan Penjagaan Invariant**
     Proyek ini merupakan latihan pemrograman berorientasi objek (OOP) yang berfokus pada konsep enkapsulasi dan penjagaan invariant (aturan kevalidan data objek) menggunakan dua bahasa pemrograman, yaitu Java dan PHP.

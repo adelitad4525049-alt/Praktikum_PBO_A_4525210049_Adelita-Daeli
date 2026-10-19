@@ -35,13 +35,23 @@ Constructor & Delegasi (this(...)):
 
 
 ### Output
+**BEFORE**
 
+
+**AFTER**
 **Main.Java**
 ![Gambar 1](Images/After/mj1.jpeg)
 
 ![Gambar 2](Images/After/mj2.jpeg)
 
 ![Gambar 3](Images/After/rekj1.jpeg)
+
+![Gambar 3](Images/After/rekj2.jpeg)
+
+![Gambar 3](Images/After/rekj3.jepg)
+
+![Gambar 3](Images/After/rekj4.jpeg)
+
 
 
 

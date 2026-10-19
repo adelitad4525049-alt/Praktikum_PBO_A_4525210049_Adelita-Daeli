@@ -33,12 +33,18 @@ Sistem akademik mencatat data mahasiswa dengan ketentuan sebagai berikut:
 **BEFORE**
 
 **1. Main.Java**
+
 ![Deskripsi Gambar](Images/Before/mainj.jpeg)
 
 **2. Main PHP**
+
 ![Deskripsi Gambar](Images/Before/mainp.jpeg)
 
+**3. Mahasiswa Java**
+
 ![Deskripsi Gambar](Images/Before/mj1.jpeg)
+
+**4. Mahasiswa PHP**
 
 ![Deskripsi Gambar](Images/Before/mp.jpeg)
 

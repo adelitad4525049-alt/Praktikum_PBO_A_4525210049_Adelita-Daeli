@@ -46,11 +46,11 @@ Constructor & Delegasi (this(...)):
 
 ![Gambar 3](Images/After/rekj1.jpeg)
 
-![Gambar 3](Images/After/rekj2.jpeg)
+![Gambar 4](Images/After/rekj2.jpeg)
 
-![Gambar 3](Images/After/rekj3.jepg)
+![Gambar 5](Images/After/rekj3.jepg)
 
-![Gambar 3](Images/After/rekj4.jpeg)
+![Gambar 6](Images/After/rekj4.jpeg)
 
 
 

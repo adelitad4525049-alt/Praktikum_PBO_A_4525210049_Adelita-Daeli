@@ -53,15 +53,13 @@ Sistem akademik mencatat data mahasiswa dengan ketentuan sebagai berikut:
 ![Deskripsi Gambar](Images/After/mainp1.jpeg)
 
  
- 🚀 Cara Menjalankan1. 
- 1. Java (Mahasiswa.java)Pastikan Anda sudah menginstal Java Development Kit (JDK 8 atau yang lebih baru).
- # Kompilasi
- javac Mahasiswa.java
- # Jalankan (jika ditambahkan method main pengujian)
- java Mahasiswa
+## 🚀 Cara Menjalankan Program
 
- 2. PHP (Mahasiswa.php)Pastikan PHP versi 8.0 atau yang lebih baru terinstal (mendukung fitur Constructor Property Promotion dan readonly).
- # Jalankan skrip dengan PHP CLI
-php Mahasiswa.php
+### 1. Java (`Main.java` & `RekeningBank.java`)
+Pastikan Anda sudah menginstal Java Development Kit (JDK 8 atau yang lebih baru).
+
+* **Kompilasi program:**
+  ```bash
+  javac Main.java RekeningBank.java
 
 🛡️ Penjagaan Invariant (Invariant Guard)Setiap upaya untuk memasukkan data yang melanggar aturan (seperti NIM kosong atau nilai negatif/di atas 100) akan langsung digagalkan pada tahap konstruksi objek dengan melempar IllegalArgumentException (Java) atau InvalidArgumentException (PHP). Hal ini menjamin bahwa objek Mahasiswa tidak pernah berada dalam kondisi tidak sah (invalid state).

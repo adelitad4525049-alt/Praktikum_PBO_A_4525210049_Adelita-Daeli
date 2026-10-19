@@ -5,7 +5,7 @@
 Repositori ini berisi kumpulan latihan dan tugas praktikum Pemrograman Berorientasi Objek (PBO) yang berfokus pada penerapan Pewarisan (Inheritance), Kelas Abstrak (Abstract Class), Polimorfisme (Polymorphism), serta perbandingan implementasi kode menggunakan bahasa Java dan PHP.
     
     
-📁 Struktur & Daftar Program
+📁 **Struktur & Daftar Program**
 Berikut adalah ringkasan dari 11 program yang terdapat dalam praktikum ini:
 1. Studi Kasus Pegawai & Gaji (Java)
     * Program 1 (Main.java - Pegawai): Menjalankan daftar pegawai (Pegawai Tetap dan Kontrak) beserta perhitungan beban gaji total secara polimorfik.

@@ -40,12 +40,12 @@ Constructor & Delegasi (this(...)):
 
 **AFTER**
 
-**Main.Java**
+**1. Main.Java**
 ![Gambar 1](Images/After/mj1.jpeg)
 
 ![Gambar 2](Images/After/mj2.jpeg)
 
-**Rekekening Java**
+**2. Rekekening Java**
 
 ![Gambar 3](Images/After/rekj1.jpeg)
 

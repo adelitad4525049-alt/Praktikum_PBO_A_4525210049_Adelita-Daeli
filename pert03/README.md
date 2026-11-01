@@ -1,0 +1,99 @@
+### LAPORAN PRAKTIKUM PBO PERT 03
+**NAMA : ADELITA DAELI**
+**NPM  : 4525210049**
+
+**Proyek RekeningBank (Java OOP)**
+
+
+Proyek ini adalah implementasi sederhana dari sistem pengelolaan rekening bank menggunakan bahasa pemrograman Java. Proyek ini dirancang untuk mempelajari konsep Pemrograman Berorientasi Objek (PPOB / OOP) tingkat lanjut di Java, khususnya mengenai constructor chaining (delegasi constructor), anggota statis (static), konstanta (final), serta penanganan eksepsi (exception handling).
+
+**📂 Struktur Kelas**
+
+Proyek ini terdiri dari dua kelas utama:
+ * Main.java: Kelas utama (driver) yang menjalankan pengujian (skenario tes) untuk memastikan semua fungsi pada kelas RekeningBank berjalan dengan benar sesuai invariant yang ditentukan.
+ * RekeningBank.java: Kelas cetak biru (blueprint) yang merepresentasikan entitas rekening bank beserta logika bisnisnya (validasi saldo, setor, tarik, administrasi, dan perhitungan bunga).
+
+**⚙️ Fitur dan Implementasi Utama (RekeningBank.java)**
+
+Konstanta Global (public static final):
+  * bungatahunan = 0.025 (Suku bunga 2.5%)
+  * biayaadministrasi = 5000 (Potongan biaya admin)
+  * bataspenarikan_sekali = 5000000 (Batas maksimal penarikan dalam sekali transaksi)
+
+Constructor & Delegasi (this(...)):
+ * Menggunakan constructor chaining agar logika validasi terpusat pada satu constructor utama guna menghindari duplikasi kode.
+
+**Encapsulation & Invariant:**
+ * Menjaga agar saldo tidak pernah bernilai negatif.
+ * Nomor rekening bersifat tetap (final) setelah objek berhasil dibuat.
+ * Validasi ketat pada input setoran, penarikan, serta parameter pembuatan rekening.
+
+**Anggota Statis (static):**
+ * jumlahRekening: Variabel privat untuk melacak total objek rekening yang berhasil diinisialisasi.
+ * getJumlahRekening() & bungaSetahun(double pokok): Method utilitas statis yang dapat dipanggil tanpa harus membuat instansiasi objek terlebih dahulu.
+
+**🚀 Cara Menjalankan Program**
+1. Pastikan Anda sudah menginstal Java Development Kit (JDK) di komputer Anda.
+2. Simpan kedua berkas kode (Main.java dan RekeningBank.java) ke dalam satu direktori/folder yang sama.
+3. Buka terminal atau command prompt pada folder tersebut.
+
+
+### Output
+**BEFORE**
+
+**1. Main Java**
+
+![Before 1](Images/Before/mainj.jpeg)
+
+**2. Main PHP**
+
+![Before 1](Images/Before/mainp.jpeg)
+
+**3. Rekening Bank Java**
+
+![Before 1](Images/Before/rbjava.jpeg)
+
+**4. Rekening Bank PHP**
+
+![Before 1](Images/Before/rbphp.jpeg)
+
+
+**AFTER**
+
+**1. Main.Java**
+
+![Gambar 1](Images/After/mj1.jpeg)
+
+![Gambar 2](Images/After/mj2.jpeg)
+
+**2. Rekekening Java**
+
+![Gambar 3](Images/After/rekj1.jpeg)
+
+![Gambar 4](Images/After/rekj2.jpeg)
+
+![Gambar 5](Images/After/rekj3.jpeg)
+
+![Gambar 6](Images/After/rekj4.jpeg)
+
+
+
+
+**Kompilasi program dengan perintah:**
+```bash
+javac Main.java RekeningBank.java
+```
+
+**Jalankan program dengan perintah:**
+```bash
+java Main
+```
+
+**🧪 Skenario Pengujian (Main)**
+      Program pengujian di kelas Main mencakup:
+1. Pengecekan penghitungan jumlah rekening secara akurat menggunakan method statis.
+2. Pembuatan objek rekening dengan berbagai varian constructor.
+3. Pengujian operasi penyetoran dana (setor).
+4. Pengujian penarikan dana dengan simulasi penolakan jika melebihi saldo atau melewati batas penarikan maksimal (tarik).
+5. Pengujian pemotongan biaya administrasi tanpa membuat saldo menjadi negatif (potongBiayaAdmin).
+6. Perhitungan estimasi bunga tabungan dalam setahun menggunakan method utilitas statis.

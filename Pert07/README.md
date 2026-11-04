@@ -25,6 +25,9 @@ Pada pertemuan ini, praktikum berfokus pada penerapan dua jenis relasi utama ant
 * Menyediakan fitur bisnis dasar seperti `tambahKoleksi()`, `cariKoleksi()`, proses peminjaman (`pinjam()`) yang dilengkapi pengecekan ketersediaan stok, serta pengembalian buku (`kembalikan()`)[cite: 13, 14].
 
 ---
+ ## 3. Dokumentasi
+
+ ---
 
 ## 2. Struktur Proyek
 
@@ -41,12 +44,6 @@ pert07/
     ├── relasi.php             (Definisi Kelas Buku, Bab, Enum)
     └── Main.php               (Eksekusi Pengujian PHP)
 
-
-##3. Ringkasan Implementasi Kode Program
-
-![Program Buku.Java](Images/After/bj1.jpeg)
-
-![Deskripsi Gambar](Images/After/bj2.jpeg)
 
 
 

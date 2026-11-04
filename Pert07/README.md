@@ -44,9 +44,9 @@ pert07/
 
 ## 3. Dokumentasi
 
-![Tampilan Desktop](Images/After/bj1.jpeg)
+![Program Buku.Java](Images/After/bj1.jpeg)
 
-![Tampilan Desktop](Images/After/bj2.jpeg)
+![Deskripsi Gambar](Images/After/bj2.jpeg)
 
 
 

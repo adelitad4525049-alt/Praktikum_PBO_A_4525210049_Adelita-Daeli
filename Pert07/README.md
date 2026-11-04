@@ -30,6 +30,32 @@ Pada pertemuan ini, praktikum berfokus pada penerapan dua jenis relasi utama ant
 
 ![Deskripsi Gambar](Images/After/bj1.jpeg)
 
+![Deskripsi Gambar](Images/After/bj2.jpeg)
+
+![Deskripsi Gambar](Images/After/bj1.jpeg)
+
+![Deskripsi Gambar](Images/After/jj1.jpeg)
+
+![Deskripsi Gambar](Images/After/jj2.jpeg)
+
+![Deskripsi Gambar](Images/After/mj.jpeg)
+
+![Deskripsi Gambar](Images/After/mp.jpeg)
+
+![Deskripsi Gambar](Images/After/psj1.jpeg)
+
+![Deskripsi Gambar](Images/After/psj2.jpeg)
+
+![Deskripsi Gambar](Images/After/rp1.jpeg)
+
+![Deskripsi Gambar](Images/After/rp2.jpeg)
+
+![Deskripsi Gambar](Images/After/rp3.jpeg)
+
+![Deskripsi Gambar](Images/After/rp4.jpeg)
+
+![Deskripsi Gambar](Images/After/rp5.jpeg)
+
 ---
 
 

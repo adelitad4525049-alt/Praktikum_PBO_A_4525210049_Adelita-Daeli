@@ -1,4 +1,4 @@
-# Laporan Praktikum PBO — Sesi 7: Relasi Objek (Komposisi & Agregasi)
+# Laporan Praktikum PBO — Pert 7: Relasi Objek (Komposisi & Agregasi)
 
 **Nama:** Adelita Daeli  
 **NPM:** 4525210049  

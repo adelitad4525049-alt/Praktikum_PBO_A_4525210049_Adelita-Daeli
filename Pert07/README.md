@@ -42,7 +42,7 @@ pert07/
     └── Main.php               (Eksekusi Pengujian PHP)
 
 
-## 3. Dokumentasi
+##3. Ringkasan Implementasi Kode Program
 
 ![Program Buku.Java](Images/After/bj1.jpeg)
 

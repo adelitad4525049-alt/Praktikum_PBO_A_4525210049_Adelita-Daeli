@@ -40,3 +40,13 @@ pert07/
 └── php/
     ├── relasi.php             (Definisi Kelas Buku, Bab, Enum)
     └── Main.php               (Eksekusi Pengujian PHP)
+
+
+## 3. Dokumentasi
+
+![Tampilan Desktop](Images/After/bj1.jpeg)
+
+![Tampilan Desktop](Images/After/bj2.jpeg)
+
+
+

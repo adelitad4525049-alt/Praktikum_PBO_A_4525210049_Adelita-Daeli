@@ -28,7 +28,7 @@ Pada pertemuan ini, praktikum berfokus pada penerapan dua jenis relasi utama ant
 
 ## 2. Dokumentasi
 
-![Buku.Java](Images/After/bj1.jpeg)
+![Deskripsi Gambar](Images/After/bj1.jpeg)
 
 ![Deskripsi Gambar](Images/After/bj2.jpeg)
 

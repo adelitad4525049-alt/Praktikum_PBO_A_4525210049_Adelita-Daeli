@@ -26,7 +26,14 @@ Pada pertemuan ini, praktikum berfokus pada penerapan dua jenis relasi utama ant
 
 ---
 
-## 2. Struktur Proyek
+## 2. Dokumentasi
+
+![Deskripsi Gambar](Images/After/bj1.jpeg)
+
+---
+
+
+## 3. Struktur Proyek
 
 ```text
 pert07/
@@ -40,16 +47,3 @@ pert07/
 └── php/
     ├── relasi.php             (Definisi Kelas Buku, Bab, Enum)
     └── Main.php               (Eksekusi Pengujian PHP)
----
-
-
-## 3. Dokumentasi
-
-![Deskripsi Gambar](Images/After/bj1.jpeg)
-
----
-
-
-
-
-

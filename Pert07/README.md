@@ -1,4 +1,4 @@
-# Laporan Praktikum PBO — Sesi 7: Relasi Objek (Komposisi & Agregasi)
+# Laporan Praktikum PBO — Pert 7: Relasi Objek (Komposisi & Agregasi)
 
 **Nama:** Adelita Daeli  
 **NPM:** 4525210049  
@@ -26,7 +26,55 @@ Pada pertemuan ini, praktikum berfokus pada penerapan dua jenis relasi utama ant
 
 ---
 
-## 2. Struktur Proyek
+## 2. Dokumentasi
+
+**Buku.Java**
+
+![Deskripsi Gambar](Images/After/bj1.jpeg)
+
+![Deskripsi Gambar](Images/After/bj2.jpeg)
+
+
+**Jurusan.Java**
+
+
+![Deskripsi Gambar](Images/After/jj1.jpeg)
+
+![Deskripsi Gambar](Images/After/jj2.jpeg)
+
+**Main.Java**
+
+
+![Deskripsi Gambar](Images/After/mj.jpeg)
+
+
+**Main.PHP**
+
+![Deskripsi Gambar](Images/After/mp.jpeg)
+
+
+**Perpustakaan Service.Java**
+
+![Deskripsi Gambar](Images/After/psj1.jpeg)
+
+![Deskripsi Gambar](Images/After/psj2.jpeg)
+
+**Relasi.PHP**
+
+![Deskripsi Gambar](Images/After/rp1.jpeg)
+
+![Deskripsi Gambar](Images/After/rp2.jpeg)
+
+![Deskripsi Gambar](Images/After/rp3.jpeg)
+
+![Deskripsi Gambar](Images/After/rp4.jpeg)
+
+![Deskripsi Gambar](Images/After/rp5.jpeg)
+
+---
+
+
+## 3. Struktur Proyek
 
 ```text
 pert07/

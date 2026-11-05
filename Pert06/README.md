@@ -180,4 +180,38 @@ Diisi oleh dosen atau asisten pada saat demo. Tugas tanpa lembar terverifikasi t
 
 ---
 
+
+## Dokumentasi
+
+**Fuelable.Java**
+
+![Deskripsi Gambar](Images/After/Fj.jpeg)
+
+**Kendaraan.Java**
+
+![Deskripsi Gambar](Images/After/kj.jpeg)
+
+**Main.Java**
+
+![Deskripsi Gambar](Images/After/mj.jpeg)
+
+**Mobil.Java**
+
+![Deskripsi Gambar](Images/After/moj.jpeg)
+
+**Movabele.Java**
+
+![Deskripsi Gambar](Images/After/movj.jpeg)
+
+**Sepeda.Java**
+
+![Deskripsi Gambar](Images/After/sj.jpeg)
+
+**Tipe Bahan Bakar.Java**
+
+![Deskripsi Gambar](Images/After/tbj.jpeg)
+
+
+
+
 _Modul ini disusun 10 September 2026. Versi teknologi yang dirujuk (Java 25 LTS, PHP 8.4/8.5, Laravel 13, Spring Boot 4.1) diverifikasi pada tanggal tersebut dan perlu diperiksa ulang sebelum semester berjalan._

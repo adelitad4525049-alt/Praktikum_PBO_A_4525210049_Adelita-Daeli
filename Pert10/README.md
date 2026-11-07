@@ -5,45 +5,45 @@
 **NPM         : 4525210049**
 
 
-Java
+**Java**
 
 1. PerpustakaanException.java
 - After :
 ![Output Sesudah](IMAGES/PE.png)
 
-Class PerpustakaanException.java merupakan class induk untuk seluruh exception khusus dalam sistem perpustakaan. Class ini diturunkan dari RuntimeException sehingga termasuk unchecked exception. Dengan adanya class induk ini, seluruh kesalahan yang berhubungan dengan proses perpustakaan dapat ditangani menggunakan satu jenis exception.
+Class PerpustakaanException.java merupakan kelas induk bagi seluruh exception khusus yang digunakan dalam sistem perpustakaan. Kelas ini diturunkan dari RuntimeException, sehingga termasuk dalam kategori unchecked exception. Keberadaan kelas induk ini memungkinkan seluruh kesalahan yang berkaitan dengan proses dalam sistem perpustakaan ditangani melalui satu jenis exception yang sama.
 
 2. AnggotaTidakDitemukanException.java
 
 - After :
 ![Output Sesudah](IMAGES/ATD.png)
 
-Class AnggotaTidakDitemukanException.java digunakan ketika anggota dengan ID tertentu belum terdaftar di dalam sistem. Class ini menyimpan ID anggota yang bermasalah dan menyediakan getter untuk mengambil ID tersebut. Dengan begitu, pesan kesalahan bisa menampilkan informasi yang lebih jelas.
+Class AnggotaTidakDitemukanException.java digunakan untuk menangani kondisi ketika anggota dengan ID tertentu tidak ditemukan atau belum terdaftar dalam sistem. Kelas ini menyimpan ID anggota yang mengalami masalah serta menyediakan getter untuk mengakses ID tersebut. Dengan demikian, pesan kesalahan yang ditampilkan dapat memberikan informasi yang lebih jelas dan spesifik.
 
 3. BukuTidakDitemukanException.java
 - After :
 ![Output Sesudah](IMAGES/BTD.png)
 
-Class BukuTidakDitemukanException.java digunakan ketika ISBN buku yang dicari tidak ditemukan di dalam katalog. Class ini menyimpan ISBN sebagai atribut dan menyediakan getter untuk mengambil data tersebut. Exception ini membantu sistem memberikan informasi yang jelas saat buku tidak tersedia di dalam data perpustakaan.
+Class BukuTidakDitemukanException.java digunakan untuk menangani kondisi ketika ISBN buku yang dicari tidak ditemukan dalam katalog perpustakaan. Kelas ini menyimpan ISBN sebagai atribut serta menyediakan getter untuk mengakses data tersebut. Dengan adanya exception ini, sistem dapat memberikan informasi kesalahan yang lebih jelas ketika buku yang dicari tidak tersedia dalam data perpustakaan.
 
 4. BukuSedangDipinjamException.java
 - After 
 ![Output Sesudah](IMAGES/BSP.png)
 
-Class BukuSedangDipinjamException.java digunakan ketika stok buku sudah habis atau tidak ada eksemplar yang bisa dipinjam. Class ini membawa data ISBN dan judul buku, sehingga informasi kesalahan yang ditampilkan menjadi lebih lengkap.
+Class BukuSedangDipinjamException.java digunakan untuk menangani kondisi ketika stok buku telah habis atau tidak terdapat eksemplar yang tersedia untuk dipinjam. Kelas ini menyimpan informasi berupa ISBN dan judul buku, sehingga pesan kesalahan yang ditampilkan dapat memberikan keterangan yang lebih lengkap dan jelas kepada pengguna.
 
 5. BatasPinjamTerlampauiException.java
 
 - After :
 ![Output Sesudah](IMAGES/BPT.png)
 
-Class BatasPinjamTerlampauiException.java digunakan ketika anggota sudah mencapai batas maksimal peminjaman. Class ini menyimpan ID anggota dan jumlah batas peminjaman, yaitu maksimal 3 buku. Getter disediakan agar informasi tersebut dapat diambil saat exception ditangani.
+Class BatasPinjamTerlampauiException.java digunakan untuk menangani kondisi ketika anggota telah mencapai batas maksimal peminjaman buku. Kelas ini menyimpan informasi berupa ID anggota dan jumlah maksimal peminjaman, yaitu 3 buku. Selain itu, disediakan getter untuk mengakses informasi tersebut ketika exception ditangani.
 
 6. Anggota.java
 - After :
 ![Output Sesudah](IMAGES/AJ.png)
 
-Class Anggota.java digunakan sebagai representasi data anggota perpustakaan. Class ini memiliki atribut nomor anggota, nama, dan jenis keanggotaan. Terdapat validasi agar nomor anggota dan nama tidak boleh kosong, getter untuk mengambil data, serta method toString() untuk menampilkan informasi anggota.
+Class Anggota.java digunakan untuk merepresentasikan data anggota perpustakaan. Kelas ini memiliki beberapa atribut, yaitu nomor anggota, nama, dan jenis keanggotaan. Selain itu, terdapat validasi untuk memastikan nomor anggota dan nama tidak boleh kosong, getter untuk mengakses data, serta method toString() untuk menampilkan informasi anggota dalam bentuk teks.
 
 7. Buku.java
 
@@ -65,7 +65,7 @@ Class Peminjaman.java digunakan untuk merepresentasikan transaksi peminjaman buk
 - After :
 ![Output Sesudah](IMAGES/LSK.png)
 
-Class LibraryServiceKotor.java merupakan contoh kode awal yang digunakan sebagai bahan latihan refactoring. Proses peminjaman masih menggunakan percabangan if bersarang sehingga alurnya cukup panjang dan sulit dibaca. Jika peminjaman gagal, method hanya mengembalikan nilai false tanpa menjelaskan penyebab kegagalannya.
+Class LibraryServiceKotor.java merupakan contoh kode awal yang digunakan sebagai bahan latihan refactoring. Pada kode ini, proses peminjaman buku masih menggunakan percabangan if bersarang, sehingga alur program menjadi cukup panjang dan sulit dipahami. Selain itu, ketika proses peminjaman gagal, method hanya mengembalikan nilai false tanpa memberikan penjelasan mengenai penyebab kegagalan tersebut.
 
 10. LibraryService.java
 
@@ -73,7 +73,7 @@ Class LibraryServiceKotor.java merupakan contoh kode awal yang digunakan sebagai
   
 ![Output Sesudah](IMAGES/LS.png)
 
-Class LibraryService.java merupakan hasil refactoring dari LibraryServiceKotor.java. Class ini mengelola data buku, stok, anggota, dan jumlah peminjaman. Method pinjam() menggunakan konsep guard clause untuk memeriksa kondisi di awal dan melempar exception khusus jika anggota tidak ditemukan, buku tidak ditemukan, stok habis, atau batas peminjaman sudah tercapai. Dengan cara ini, kode menjadi lebih rapi dan alasan kegagalan bisa diketahui dengan jelas.
+Class LibraryService.java merupakan hasil proses refactoring dari LibraryServiceKotor.java. Kelas ini bertanggung jawab untuk mengelola data buku, stok, anggota, serta jumlah peminjaman. Method pinjam() menerapkan konsep guard clause dengan melakukan pemeriksaan kondisi di awal proses dan melempar exception khusus apabila anggota tidak ditemukan, buku tidak tersedia, stok habis, atau batas maksimal peminjaman telah tercapai. Dengan penerapan ini, struktur kode menjadi lebih rapi, mudah dipahami, serta mampu memberikan informasi yang jelas mengenai penyebab kegagalan proses peminjaman.
 
 11. PerpustakaanService.java
 

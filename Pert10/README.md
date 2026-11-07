@@ -86,7 +86,7 @@ Class PerpustakaanService.java berisi proses interaksi antara pengguna dan siste
 12. Main.java
 
 - After :
-![Output Sesudah](IMAGES/MJ1png)
+![Output Sesudah](IMAGES/MJ1.png)
 ![Output Sesudah](IMAGES/MJ2.png)
 
 Class Main.java merupakan program utama untuk menjalankan sistem perpustakaan menggunakan Java. Program ini menampilkan menu untuk menambahkan buku, mendaftarkan anggota, dan melakukan peminjaman. Setelah program selesai, sistem akan mengekspor daftar buku beserta jumlah stok dan status ketersediaannya ke dalam file laporan_buku.txt. Proses penulisan file menggunakan try-with-resources dan menangani IOException jika terjadi kesalahan.

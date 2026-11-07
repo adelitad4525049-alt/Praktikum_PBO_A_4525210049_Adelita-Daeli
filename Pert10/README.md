@@ -14,7 +14,7 @@ Java
 Class PerpustakaanException.java merupakan class induk untuk seluruh exception khusus dalam sistem perpustakaan. Class ini diturunkan dari RuntimeException sehingga termasuk unchecked exception. Dengan adanya class induk ini, seluruh kesalahan yang berhubungan dengan proses perpustakaan dapat ditangani menggunakan satu jenis exception.
 
 2. AnggotaTidakDitemukanException.java
-Screenshot =
+
 - After :
 ![Output Sesudah](IMAGES/ATD.png)
 

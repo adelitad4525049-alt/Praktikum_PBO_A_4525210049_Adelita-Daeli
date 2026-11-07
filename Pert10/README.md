@@ -70,6 +70,7 @@ Class LibraryServiceKotor.java merupakan contoh kode awal yang digunakan sebagai
 10. LibraryService.java
 
 - After :
+  
 ![Output Sesudah](IMAGES/LS.png)
 
 Class LibraryService.java merupakan hasil refactoring dari LibraryServiceKotor.java. Class ini mengelola data buku, stok, anggota, dan jumlah peminjaman. Method pinjam() menggunakan konsep guard clause untuk memeriksa kondisi di awal dan melempar exception khusus jika anggota tidak ditemukan, buku tidak ditemukan, stok habis, atau batas peminjaman sudah tercapai. Dengan cara ini, kode menjadi lebih rapi dan alasan kegagalan bisa diketahui dengan jelas.

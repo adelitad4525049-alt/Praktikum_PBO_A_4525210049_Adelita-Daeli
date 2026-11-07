@@ -1,4 +1,4 @@
-# LAPORAN PRAKTIKUM PBO A - Pert 10: "EXCEPTION HANDLING DAN PEMROGRAMAN DEFENSIF"
+# LAPORAN PRAKTIKUM PBO A - Pert 10: "Exception Handling & Pemrograman Defensif"
 
 **NAMA        : Adelita Daeli** 
 

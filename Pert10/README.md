@@ -21,14 +21,12 @@ Class PerpustakaanException.java merupakan class induk untuk seluruh exception k
 Class AnggotaTidakDitemukanException.java digunakan ketika anggota dengan ID tertentu belum terdaftar di dalam sistem. Class ini menyimpan ID anggota yang bermasalah dan menyediakan getter untuk mengambil ID tersebut. Dengan begitu, pesan kesalahan bisa menampilkan informasi yang lebih jelas.
 
 3. BukuTidakDitemukanException.java
-   
 - After :
 ![Output Sesudah](IMAGES/BTD.png)
 
 Class BukuTidakDitemukanException.java digunakan ketika ISBN buku yang dicari tidak ditemukan di dalam katalog. Class ini menyimpan ISBN sebagai atribut dan menyediakan getter untuk mengambil data tersebut. Exception ini membantu sistem memberikan informasi yang jelas saat buku tidak tersedia di dalam data perpustakaan.
 
 4. BukuSedangDipinjamException.java
-   
 - After 
 ![Output Sesudah](IMAGES/BSP.png)
 

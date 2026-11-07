@@ -179,9 +179,9 @@ Class LibraryService.php merupakan hasil refactoring dengan menggunakan konsep g
 ![Output Sesudah](IMAGES/MP2.png)
 
 
-File Main.php merupakan program utama untuk menjalankan dan menguji sistem perpustakaan menggunakan PHP. Program ini membuat data buku dan anggota, kemudian melakukan beberapa percobaan peminjaman untuk menguji kondisi berhasil maupun gagal. Exception ditangani menggunakan try-catch agar penyebab kegagalan dapat ditampilkan.
+File Main.php merupakan program utama yang digunakan untuk menjalankan dan menguji sistem perpustakaan menggunakan PHP. Program ini membuat data buku dan anggota, kemudian melakukan beberapa pengujian proses peminjaman untuk memastikan sistem dapat menangani kondisi berhasil maupun gagal. Penanganan exception dilakukan menggunakan try-catch agar penyebab terjadinya kegagalan dapat ditampilkan dengan jelas.
 
-Selain itu, file ini memiliki fungsi createReport() untuk mengekspor daftar buku, jumlah stok, dan status ketersediaan ke dalam file laporan_buku.txt. Proses penulisan file menggunakan try-catch-finally, sehingga file tetap ditutup dengan aman melalui blok finally.
+Selain itu, file ini memiliki fungsi createReport() yang digunakan untuk mengekspor informasi daftar buku, jumlah stok, dan status ketersediaan ke dalam file laporan_buku.txt. Proses penulisan file menerapkan struktur try-catch-finally, sehingga file dapat ditutup dengan aman melalui blok finally, baik ketika proses berhasil maupun terjadi kesalahan.
 
 Kesimpulan
-Pada Pertemuan 10, praktikum membahas Exception Handling dan Pemrograman Defensif menggunakan Java dan PHP. Materi yang diterapkan meliputi pembuatan custom exception, penggunaan try-catch, validasi input, guard clause, serta penanganan kesalahan saat proses penulisan file. Selain itu, dilakukan refactoring dari kode dengan percabangan bersarang menjadi kode yang lebih rapi dan mudah dipahami.
+Pada Pertemuan 10, praktikum membahas materi Exception Handling dan Pemrograman Defensif menggunakan Java dan PHP. Materi yang dipelajari mencakup pembuatan custom exception, penggunaan try-catch, validasi input, penerapan guard clause, serta penanganan kesalahan dalam proses penulisan file. Selain itu, praktikum juga menerapkan proses refactoring untuk mengubah kode yang menggunakan percabangan bersarang menjadi struktur program yang lebih rapi, sederhana, dan mudah dipahami. Melalui praktikum ini, dapat dipahami bahwa penanganan kesalahan yang baik membantu meningkatkan kejelasan alur program serta membuat sistem lebih terstruktur dan mudah dipelihara.

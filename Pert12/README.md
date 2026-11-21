@@ -13,10 +13,16 @@ Proyek ini berfokus pada penerapan prinsip-prinsip **SOLID** dan **Repository Pa
 ---
 
 ## Dokumentasi
-* ![ADjava](Dokumentasi/Before/ADjava.jpeg)
-* ![BRjava](Dokumentasi/Before/BRjava.jpeg)
-* ![IMBRjava](Dokumentasi/Before/IMBRjava.jpeg)
-* ![repophp](Dokumentasi/Before/repophp.jpeg)
+
+**Before**
+
+![ADjava](Dokumentasi/Before/ADjava.jpeg)
+
+![BRjava](Dokumentasi/Before/BRjava.jpeg)
+
+![IMBRjava](Dokumentasi/Before/IMBRjava.jpeg)
+
+![repophp](Dokumentasi/Before/repophp.jpeg)
 ```
 
 

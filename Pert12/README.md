@@ -103,6 +103,9 @@ php main.php
 ## Dokumentasi
 
 ### Before Refactoring
-![Deskripsi Gambar](Dokumentasi/Before/ADjava.jpeg)
+* ![ADjava](Dokumentasi/Before/ADjava.jpeg)
+* ![BRjava](Dokumentasi/Before/BRjava.jpeg)
+* ![IMBRjava](Dokumentasi/Before/IMBRjava.jpeg)
+* ![repophp](Dokumentasi/Before/repophp.jpeg)
 
 

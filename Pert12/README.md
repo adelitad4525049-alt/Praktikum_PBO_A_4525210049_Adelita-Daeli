@@ -96,7 +96,6 @@ php main.php
 
 # Menjalankan unit test
 ./vendor/bin/phpunit
-```[cite: 1]
 
 ---
 

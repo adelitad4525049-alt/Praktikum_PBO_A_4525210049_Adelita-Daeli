@@ -103,18 +103,6 @@ php main.php
 ## Dokumentasi
 
 ### Before Refactoring
-* **AturanDenda (`AD.java`):**
-  ![Before - AD.java](Dokumentas/Before/ADjava.jpeg)
+![Deskripsi Gambar](Dokumentasi/Before/ADjava.jpeg)
 
-* **BookRepository (`BR.java`):**
-  ![Before - BR.java](Dokumentasi/Before/BR.java.jpeg)
 
-* **InMemoryBookRepository (`IMBR.java`):**
-  ![Before - IMBR.java](Dokumentasi/Before/IMBR.java.jpeg)
-
-* **Repository PHP (`repo.php`):**
-  ![Before - repo.php](Dokumentasi/Before/repo.php.jpeg)
-
-### After Refactoring
-*(Sesuaikan nama file gambar di dalam folder `Dokumentasi/After/`)*
-* ![After Refactoring](Dokumentasi/After/nama_file.jpeg)

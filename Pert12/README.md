@@ -11,12 +11,9 @@
 Proyek ini berfokus pada penerapan prinsip-prinsip **SOLID** dan **Repository Pattern** untuk melakukan *refactoring* pada sistem manajemen perpustakaan (`id.ac.univpancasila.perpustakaan`)[cite: 1]. Tujuannya adalah memisahkan logika bisnis dari mekanisme penyimpanan data, mengurangi ketergantungan antar kelas (*loose coupling*), serta mempermudah pengujian unit (*unit testing*)[cite: 1].
 
 ---
-
-## Dokumentasi
-
 **Before**
-
-**Java**
+.
+**1.Java**
 
 ![ADjava](Dokumentasi/Before/ADjava.jpeg)
 
@@ -24,7 +21,7 @@ Proyek ini berfokus pada penerapan prinsip-prinsip **SOLID** dan **Repository Pa
 
 ![IMBRjava](Dokumentasi/Before/IMBRjava.jpeg)
 
-**PHP**
+**2.PHP**
 
 ![repophp](Dokumentasi/Before/repophp.jpeg)
 ```

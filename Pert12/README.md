@@ -74,7 +74,13 @@ Pert12/
 * **`Repository` & `BookRepository`:** Mendefinisikan kontrak operasi CRUD dan pencarian data buku[cite: 1].
 * **`InMemoryBookRepository` / `KoleksiBuku`:** Mengimplementasikan penyimpanan data di memori tanpa membocorkan struktur penyimpanan internal ke lapisan `Service`[cite: 1].
 
----
+
+## Dokumentasi
+* ![ADjava](Dokumentasi/Before/ADjava.jpeg)
+* ![BRjava](Dokumentasi/Before/BRjava.jpeg)
+* ![IMBRjava](Dokumentasi/Before/IMBRjava.jpeg)
+* ![repophp](Dokumentasi/Before/repophp.jpeg)
+```
 
 ## Cara Menjalankan Program & Pengujian
 
@@ -99,12 +105,5 @@ php main.php
 
 ---
 
-## Dokumentasi
-
-### Before Refactoring
-* ![ADjava](Dokumentasi/Before/ADjava.jpeg)
-* ![BRjava](Dokumentasi/Before/BRjava.jpeg)
-* ![IMBRjava](Dokumentasi/Before/IMBRjava.jpeg)
-* ![repophp](Dokumentasi/Before/repophp.jpeg)
 
 

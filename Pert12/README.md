@@ -104,7 +104,7 @@ php main.php
 
 ### Before Refactoring
 * **AturanDenda (`AD.java`):**
-  ![Before - AD.java](Dokumentasi/Before/ADjava.jpeg)
+  ![Before - AD.java](Src/Dokumentasi/Before/ADjava.jpeg)
 
 * **BookRepository (`BR.java`):**
   ![Before - BR.java](Dokumentasi/Before/BR.java.jpeg)

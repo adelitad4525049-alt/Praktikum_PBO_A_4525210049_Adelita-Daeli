@@ -12,6 +12,14 @@ Proyek ini berfokus pada penerapan prinsip-prinsip **SOLID** dan **Repository Pa
 
 ---
 
+## Dokumentasi
+* ![ADjava](Dokumentasi/Before/ADjava.jpeg)
+* ![BRjava](Dokumentasi/Before/BRjava.jpeg)
+* ![IMBRjava](Dokumentasi/Before/IMBRjava.jpeg)
+* ![repophp](Dokumentasi/Before/repophp.jpeg)
+```
+
+
 ## Struktur Proyek
 
 Struktur direktori utama pada proyek ini mencakup implementasi di lingkungan Java dan PHP[cite: 1, 2]:
@@ -73,14 +81,6 @@ Pert12/
 ### 2. Repository Pattern
 * **`Repository` & `BookRepository`:** Mendefinisikan kontrak operasi CRUD dan pencarian data buku[cite: 1].
 * **`InMemoryBookRepository` / `KoleksiBuku`:** Mengimplementasikan penyimpanan data di memori tanpa membocorkan struktur penyimpanan internal ke lapisan `Service`[cite: 1].
-
-
-## Dokumentasi
-* ![ADjava](Dokumentasi/Before/ADjava.jpeg)
-* ![BRjava](Dokumentasi/Before/BRjava.jpeg)
-* ![IMBRjava](Dokumentasi/Before/IMBRjava.jpeg)
-* ![repophp](Dokumentasi/Before/repophp.jpeg)
-```
 
 ## Cara Menjalankan Program & Pengujian
 
